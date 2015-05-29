@@ -12,7 +12,7 @@
 
 1. 下载js,css文件夹和template.html。
 
- + Template中的<code>&lt;article\>...&lt;article></code>标签内为你的正文放置区域。
+ + Template中的<code>&lt;article\>...&lt;/article></code>标签内为你的正文放置区域。
 
 2. 将你的MD文件转换为HTML文件，建议使用Stackedit (Export to disk-Using template)。将HTML的正文部分复制到Template中，保存。
 
