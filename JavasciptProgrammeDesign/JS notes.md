@@ -162,10 +162,11 @@ Chrome DevTools](http://discover-devtools.codeschool.com/)
     |in|try|||
 
   *以上为ECMA-262定义的关键词， \*号词为ECMAScript5新增*
-    |保留字||||
-    |---|---|---|---|
-    |class|enum|extend|super|
-    |const|export|inport||
+    
+  |保留字||||
+  |---|---|---|---|
+  |class|enum|extend|super|
+  |const|export|inport||
  
     *以上为ECMA-262第5版定义的**非严格模式**下保留字*
 
