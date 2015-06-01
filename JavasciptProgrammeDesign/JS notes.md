@@ -150,6 +150,7 @@ Chrome DevTools](http://discover-devtools.codeschool.com/)
    ```
 
 * 关键字和保留字
+
     |关键字||||
     |---|---|---|---|
     |break|do|instanceof|typeof|
@@ -207,12 +208,12 @@ EMACScript第5版引入
     ```
      * 函数内使用严格模式:在函数内加入<code>“use strict";</code>
        ```html 
-    <script type="text/javascript">
-    (function () {
-        "use strict";
-	    console.log("Hello, world!")
-	 })()
-	 </script>
+       <script type="text/javascript">
+       (function () {
+       "use strict";
+	   console.log("Hello, world!")
+	   })()
+	   </script>
        ```
   * 严格模式和标准模式对比
      * 隐式声明或定义变量（函数内定义一个未声明变量）
