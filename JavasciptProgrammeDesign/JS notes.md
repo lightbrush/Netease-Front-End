@@ -163,10 +163,10 @@ Chrome DevTools](http://discover-devtools.codeschool.com/)
 
   *以上为ECMA-262定义的关键词， \*号词为ECMAScript5新增*
   
-     |保留字||||
-     |---|---|---|---|
-     |class|enum|extend|super|
-     |const|export|inport||
+    |保留字||||
+    |---|---|---|---|
+    |class|enum|extend|super|
+    |const|export|inport||
  
     *以上为ECMA-262第5版定义的**非严格模式**下保留字*
 
@@ -198,6 +198,7 @@ EMACScript第5版引入
      * 提高编译器效率，增加运行速度
   * 使用
      * 全局使用严格模式：在script脚本第一行加入<code>“use strict";</code>
+     
     ```html 
     <script type="text/javascript">
     "use strict";
@@ -207,6 +208,7 @@ EMACScript第5版引入
 	 </script>
     ```
      * 函数内使用严格模式:在函数内加入<code>“use strict";</code>
+     
        ```html 
        <script type="text/javascript">
        (function () {
@@ -218,16 +220,17 @@ EMACScript第5版引入
   * 严格模式和标准模式对比
      * 隐式声明或定义变量（函数内定义一个未声明变量）
      
-            |标准模式|严格模式|
-            |---|---|
-            |在全局定义一个新变量<br>windows.var == value|ReferenceError：var is not defined|
+        |标准模式|严格模式|
+        |---|---|
+        |在全局定义一个新变量<br>windows.var == value|ReferenceError：var is not defined|
 
      * 对象重名的属性
 
-            |标准模式|严格模式|
-            |---|---|
-            |允许重名|SyntaxError| 
-     范例
+        |标准模式|严格模式|
+        |---|---|
+        |允许重名|SyntaxError| 
+       
+       范例
      ```javascript
      var abc = {a:1, b:2, a:3}; 
      
@@ -238,9 +241,9 @@ EMACScript第5版引入
    
      * arguments.callee(关于callee的[介绍](http://blog.sina.com.cn/s/blog_616acf520100nosr.html))
      
-            |标准模式|严格模式|
-            |---|---|
-            |允许使用匿名函数调用自身|TypeError| 
+        |标准模式|严格模式|
+        |---|---|
+        |允许使用匿名函数调用自身|TypeError| 
     范例
      ```javascript
      var count = 0; 
@@ -258,9 +261,9 @@ EMACScript第5版引入
 
      * with
 
-            |标准模式|严格模式|
-            |---|---|
-            |允许使用with语句方便书写|SyntaxError| 
+        |标准模式|严格模式|
+        |---|---|
+        |允许使用with语句方便书写|SyntaxError| 
      范例
      ```javascript
      var x, y; 
