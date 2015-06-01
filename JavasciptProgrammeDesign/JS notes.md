@@ -64,7 +64,7 @@
 * 内嵌代码
 内嵌入HTML文档中靠近<code>&lt;body></code>标签**结束处**。具体原因参见讨论：
 
-> [JavaScript 的性能优化：加载和执行](https://help.github.com/articles/github-flavored-markdown/)
+> [JavaScript 的性能优化：加载和执行](http://www.ibm.com/developerworks/cn/web/1308_caiys_jsload/)
 > 
 > [浏览器的渲染原理简介](http://coolshell.cn/articles/9666.html)
 
@@ -162,7 +162,6 @@ Chrome DevTools](http://discover-devtools.codeschool.com/)
     |in|try|||
 
   *以上为ECMA-262定义的关键词， \*号词为ECMAScript5新增*
-  
     |保留字||||
     |---|---|---|---|
     |class|enum|extend|super|
@@ -198,7 +197,6 @@ EMACScript第5版引入
      * 提高编译器效率，增加运行速度
   * 使用
      * 全局使用严格模式：在script脚本第一行加入<code>“use strict";</code>
-     
     ```html 
     <script type="text/javascript">
     "use strict";
