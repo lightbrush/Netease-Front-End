@@ -2,16 +2,16 @@
 #JavaScript程序设计笔记
 
 + [JS介绍](#js介绍)
-  + [JS介绍~](#js介绍~) 
+  + [JS介绍~](#js介绍) 
      + [前端开发三要素](#前端开发三要素)
      + [Javascript](#javascript)
      + [浏览器中的JS](#浏览器中的js)
      + [JS引入](#js引入)
 + [调试器](#调试器)
-  + [调试器~](#调试器~)
+  + [调试器~](#调试器)
      + [JS调试](#js调试) 
 + [基本语法](#基本语法)
-  + [基本语法~](#基本语法~)
+  + [基本语法~](#基本语法)
       + [词法重点](#词法重点)
      
 ## JS介绍
@@ -231,25 +231,25 @@ EMACScript第5版引入
         |允许重名|SyntaxError| 
        
        范例
-     ```javascript
-     var abc = {a:1, b:2, a:3}; 
-     
-     // 标准模式: a == 3
-     
-     // 严格模式: SyntaxError
-     ```
+       ```javascript
+       var abc = {a:1, b:2, a:3}; 
+       
+       // 标准模式: a == 3
+       
+       // 严格模式: SyntaxError
+       ```
    
      * arguments.callee(关于callee的[介绍](http://blog.sina.com.cn/s/blog_616acf520100nosr.html))
      
         |标准模式|严格模式|
         |---|---|
         |允许使用匿名函数调用自身|TypeError| 
-    范例
-     ```javascript
-     var count = 0; 
-     (function () {
-         if (count > 10) {
-             return;
+      范例
+       ```javascript
+       var count = 0; 
+       (function () {
+           if (count > 10) {
+               return;
          };
          count++;
          arguments.callee;
@@ -265,18 +265,18 @@ EMACScript第5版引入
         |---|---|
         |允许使用with语句方便书写|SyntaxError| 
      范例
-     ```javascript
-     var x, y; 
-     var count = 0; 
-     (function () {
-         with(Math) {
-             x = cos(3 * PI) + sin(LN10)
-             y = tan(14 * E)
+       ```javascript
+       var x, y; 
+       var count = 0; 
+       (function () {
+           with(Math) {
+               x = cos(3 * PI) + sin(LN10)
+               y = tan(14 * E)
          
-     // 允许使用
+       // 允许使用
      
-     // 严格模式: SyntaxError
-     ```
+       // 严格模式: SyntaxError
+       ```
 
      * 更多差异，参阅[Javascript 严格模式详解](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)或[ES5严格模式（Strict mode）](http://www.cnblogs.com/snandy/p/3428171.html)
  
