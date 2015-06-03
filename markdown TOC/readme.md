@@ -6,7 +6,7 @@
 
 因为我本人比较新手，对**jQuery**完全没什么了解，对着作者的demo琢磨了半天，又参考了网上[另一篇文章](http://www.jianshu.com/p/34c92cbd0aaf/)精简版代码，才最终实现了作者的方案。接着我又导入了自己常用的Markdown编辑器[Stackedit](https://stackedit.io/)的css和js代码，做出了目前这个成品。现在我整理了一下实现这个方案需要的相关代码和实现步骤，传到Github上，以作记录，也方便有需要的朋友傻瓜式取用:)。
 
-![示例](http://ww4.sinaimg.cn/bmiddle/6a02f707gw1esl9zvzhocg20c806djtw.gif)
+![示例](https://github.com/Light1980/Netease-Front-End/blob/master/markdown%20TOC/img/markdown-ToC.gif)
 
 ## 步骤
 
