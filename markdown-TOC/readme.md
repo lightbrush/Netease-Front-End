@@ -14,7 +14,7 @@
 
  + Template中的<code>&lt;article\>...&lt;/article></code>标签内为你的正文放置区域。
 
-2. 将你的MD文件转换为HTML文件，建议使用Stackedit (Export to disk-Using template)。将HTML的正文部分复制到Template中，保存。
+2. 将你的MD文件转换为HTML文件，建议使用Stackedit (Export to disk-As HTML)。将生成好的HTML文件源码复制到Template中，保存。
 
-3. 设置好Title，Favicon或其他标签，完成。
+3. 设置好Title，Favicon或其他你自己需要的标签，完成。
 
